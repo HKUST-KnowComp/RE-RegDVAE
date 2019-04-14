@@ -1,0 +1,6 @@
+numpy>=1.4.0
+tensorflow==1.7
+recordclass
+nltk
+scipy
+pandas

@@ -1,0 +1,9 @@
+# pycharm files
+.idea/
+*.json
+*.bkp
+old_exp.py
+tags
+.python-version
+model/
+data/
