@@ -1,11 +1,13 @@
-# Relation Discovery with Out-of-Relation Knowledge Base as Supervision.
+# Relation Discovery with Out-of-Relation Knowledge Base as Supervision
 
 This code is based on the code for paper [Discrete-State Variational Autoencoders for Joint Discovery and Factorization of Relations](https://transacl.org/ojs/index.php/tacl/article/viewFile/761/190) by Diego Marcheggiani and Ivan Titov.
 
 ## Training Models
 
-First create a python 3.6 environment using pyenv or conda. Then install the python packages with pip:
+Create a python 3.6 environment using pyenv or conda. Then install python packages with pip:
 `pip install -r requirements.txt`
+
+Extract data to `./data` directory.
 
 - Baseline model: `python -m main oie`
 - RegDVAE: 
